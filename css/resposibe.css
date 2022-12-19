@@ -1,0 +1,59 @@
+
+@media screen and (max-width: 1000px) {
+  header{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  main {
+    width: 100%;
+  }
+
+  .textToEncrypt-and-buttons{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    padding-top: 0px;
+  }
+  .textToEncrypt{
+    width: 100%;
+    height: auto;
+  }
+
+  .buttons{
+    width: 100%;
+    min-height: auto;
+    max-height: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .btn{
+    width: 90%;
+    margin-top: 30px;
+  }
+  .btn-encrypt{
+    margin: 0 auto;
+  }
+
+  .processedText{
+    width: 90%;
+    max-height: auto;
+    min-height: 200px;
+    margin: 60px auto;
+  }
+
+  .noContentShort{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+
+  .textToEncrypt-and-buttons {
+    width: 100%;
+  }
+}

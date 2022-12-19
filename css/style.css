@@ -1,0 +1,220 @@
+
+:root {
+  --bgColor: rgba(243, 245, 252, 1);
+  --bgColor2: rgb(142, 204, 227);
+  --textColor: rgba(10, 56, 113, 1);
+  --transparent: rgba(0, 0, 0, 0);
+  overflow: auto;
+}
+* {
+  background-color: var(--bgColor2);
+  color: var(--textColor);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+header {
+  width: 185px;
+  display: flex;
+}
+.navbar {
+  width: 100%;
+}
+
+.navbar-content {
+  height: calc(100% - 74px);
+}
+
+main {
+  width: calc(100% - 185px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textToEncrypt-and-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 96%;
+  margin: auto;
+  padding-top: 90px;
+}
+.textToEncrypt {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  height: calc(100% - 180px);
+}
+.textToProcessed {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 90%;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 19px;
+  border: solid 1px var(--transparent);
+  outline: none;
+  resize: none;
+
+}
+.textToProcessed::placeholder {
+  color: var(--textColor);
+  font-weight: normal;
+}
+.div-erase {
+  text-align: center;
+  width: 10%;
+}
+.erase {
+  width: 100%;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  max-height: 30%;
+  min-height: 150px;
+}
+.menssageToUser{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+
+}
+.exclamationMark{
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.btn {
+  width: 40%;
+  height: 67px;
+  margin: auto;
+  background-color: var(--transparent);
+  color: var(--textColor);
+  border: solid 2px var(--textColor);
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: var(--textColor);
+  color: var(--bgColor);
+}
+
+.processedText {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  min-height: 800px;
+  max-height: auto;
+
+  -webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
+}
+.noContentGreat {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 100%;
+  min-height: 800px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+}
+.noCntent-div-img {
+  width: 80%;
+  margin: auto auto 0 auto;
+  object-fit: cover;
+  background-color: rgb(255, 255, 255);
+}
+.noCntent-img {
+  margin: auto;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.noContent-div-text {
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.noContent-h2 {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.noConten-p {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+.yesContent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 100%;
+  min-height: 800px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+.noContentShort{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border-radius: 25px;
+}
+.textArea-processedText{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: var(--transparent);
+  border-radius: 25px;
+}
+.processedText-textarea{
+  display: inline-block;
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 600px;
+  margin: auto;
+  background-color: var(--transparent);
+  border: var(--transparent);
+  font-size: 25px;
+  resize: vertical;
+  margin: auto;
+  outline: none;
+  overflow: auto;
+}
+.btn-copy{
+  width: 90%;
+}
+
+#padre {
+  display: grid;
+  place-items: center;
+}
