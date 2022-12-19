@@ -1,8 +1,8 @@
 
 :root {
   --bgColor: rgba(243, 245, 252, 1);
-  --bgColor2: rgb(142, 204, 227);
-  --textColor: rgba(10, 56, 113, 1);
+  --bgColor2: rgb(111, 244, 237);
+  --textColor: rgb(10, 56, 113, 1);
   --transparent: rgba(0, 0, 0, 0);
   overflow: auto;
 }
@@ -12,9 +12,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI';
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 body {
   display: flex;
   flex-wrap: wrap;
@@ -29,9 +28,6 @@ header {
   width: 100%;
 }
 
-.navbar-content {
-  height: calc(100% - 74px);
-}
 
 main {
   width: calc(100% - 185px);
@@ -49,7 +45,7 @@ main {
 }
 .textToEncrypt {
   display: flex;
-  width: 50%;
+  width: 95%;
   margin: auto;
   height: calc(100% - 180px);
 }
@@ -84,7 +80,7 @@ main {
   width: 90%;
   margin: auto;
   max-height: 30%;
-  min-height: 150px;
+  min-height: 50px;
 }
 .menssageToUser{
   width: 90%;
@@ -119,10 +115,10 @@ main {
 .processedText {
   display: flex;
   margin: auto;
-  width: 100%;
+  width: 30%;
   border-radius: 25px;
   background-color: rgb(255, 255, 255);
-  min-height: 800px;
+  min-height: 400px;
   max-height: auto;
 
   -webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
@@ -134,7 +130,7 @@ box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
   flex-wrap: wrap;
   width: 100%;
   max-height: 100%;
-  min-height: 800px;
+  min-height: 400px;
   margin: auto;
   border-radius: 25px;
   background-color: rgb(255, 255, 255);
@@ -147,7 +143,6 @@ box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
 }
 .noCntent-img {
   margin: auto;
-  align-items: center;
   background-color: rgb(255, 255, 255);
 }
 
@@ -172,7 +167,7 @@ box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
   flex-wrap: wrap;
   width: 100%;
   max-height: 100%;
-  min-height: 800px;
+  min-height: 400px;
   margin: auto;
   background-color: rgb(255, 255, 255);
   border-radius: 25px;
@@ -200,7 +195,7 @@ box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
   display: inline-block;
   max-width: 90%;
   min-width: 90%;
-  min-height: 600px;
+  min-height: 400px;
   margin: auto;
   background-color: var(--transparent);
   border: var(--transparent);
@@ -212,9 +207,4 @@ box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
 }
 .btn-copy{
   width: 90%;
-}
-
-#padre {
-  display: grid;
-  place-items: center;
 }

@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Encriptador</title>
-        
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/resposibe.css">
-    </head>
-    <body>
 
-        <main>
-            <article class="textToEncrypt-and-buttons">
-                <section class="textToEncrypt">
-                    <textarea class="textToProcessed" style="text-transform:lowercase;" placeholder="Escribe el texto aquí"></textarea>
-                    <div class="div-erase">
-                    </div>
-                </section>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-                <section class="buttons">
-                    <div class="menssageToUser">
-                        <img src="img/alert-circle.svg" alt="signo de exclamación" class="exclamationMark" />
-                        <p class="userMenssage-p" >Solo minúsculas, sin acentos, ni caracteres especiales</p>
-                    </div>
-                    <input type="button" class="btn-encrypt btn btn1"
-                        value="Encriptando..."/>
-                    <input type="button" class="btn-decrypt btn btn2"
-                        value="Desencriptar"/>
-                </section>
-            </article>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
 
-            <article class="processedText">
-            </article>
+<body>
 
-            
-        </main>
+    <main>
+        <article class="textToEncrypt-and-buttons">
+            <section class="textToEncrypt">
+                <textarea class="textToProcessed" style="text-transform:lowercase;"
+                    placeholder="Escribe aquí tu texto"></textarea>
+                <div class="div-erase">
+                </div>
+            </section>
 
-        <script src="js/encryptor.js"></script>
-        <script src="js/styles.js"></script>
-    </body>
+            <section class="buttons">
+                <div class="menssageToUser">
+                    <p><i class="bi bi-exclamation-circle" style="font-size: 20px"></i>Escribir solo minúsculas, sin
+                        acentos, ni caracteres especiales</i></p>
+                </div>
+                <input type="button" class="btn-encrypt btn btn1" value="Encriptando..." />
+                <input type="button" class="btn-decrypt btn btn2" value="Desencriptar" />
+            </section>
+        </article>
+
+        <article class="processedText">
+        </article>
+
+
+    </main>
+
+    <script src="js/encryptor.js"></script>
+    <script src="js/styles.js"></script>
+</body>
+
 </html>

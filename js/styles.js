@@ -13,16 +13,16 @@ const changeProcessedNoText = () => {
             <img class="noCntent-img" width="100%" src="img/buscar.png" alt="search">
         </div>
         <div class="noContent-div-text">
-            <h2 class="noContent-h2">Ningún mensaje fue encontrado</h2>
-            <p class="noConten-p">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <h2 class="noContent-h2">No se a encontrado ningún mensaje</h2>
+            <p class="noConten-p">Ingresa el texto que desees encriptar o decifrar.</p>
         </div>
     </section>
     `;
     const noHTMLShort = `
     <section class="noContentShort">
         <div class="noContent-div-text">
-            <h2 class="noContent-h2">Ningún mensaje fue encontrado</h2>
-            <p class="noConten-p">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <h2 class="noContent-h2">No se a encontrado ningún mensaje</h2>
+            <p class="noConten-p">Ingresa el texto que desees encriptar o decifrar.</p>
         </div>
     </section>
     `;
@@ -46,7 +46,8 @@ const processedTextOnChange = () => {
     `;
     const noImgHTML = `
     <img src="img/erase.svg" alt="x" class="erase" title="Borrar">
-    `;
+    `
+    ;
 
     if (dataTextToProcessed.value.trim()) {
         if(repeat === 0){
